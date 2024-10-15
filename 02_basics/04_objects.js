@@ -1,8 +1,8 @@
-//const tinderuser = new Object()
+//const tinderUser = new Object()
 const tinderUser = {}
 
-tinderuser.id = "123abc"
-tinderuser.name = "Fardeen"
+tinderUser.id = "123abc"
+tinderUser.name = "Fardeen"
 
 
-console.log(tinderuser);
+console.log(tinderUser);
