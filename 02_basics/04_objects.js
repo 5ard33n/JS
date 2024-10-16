@@ -62,7 +62,45 @@ const users =[
 
 
 
-console.log(tinderUser.hasOwnProperty("id"));
-console.log(tinderUser.hasOwnProperty("idx"));
+// console.log(tinderUser.hasOwnProperty("id"));
+// console.log(tinderUser.hasOwnProperty("idx"));
 
 
+
+
+
+
+// De-structuring (Imp for react)
+
+
+const course = {
+  courseName: "Js in hindi",
+  price: "999",
+  courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor
+
+// const {courseInstructor} = course
+// console.log(courseInstructor);
+
+const {courseInstructor: Instructor} = course
+
+
+console.log(Instructor);
+
+
+
+//Json
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+  {},
+  {},
+  {}
+]
