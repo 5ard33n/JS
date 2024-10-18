@@ -52,4 +52,22 @@ function one(){
 
 
 //=========================== INTERESTING ================================//
+console.log(addone(5))
+function addone(num) {
+    return num + 1
+}
 
+// addone(5)
+
+// here you are able to access coz the function isnt assigned to the variable
+
+//This type of function is called expression
+// console.log(addtwo(5));
+
+// const addtwo = function(num){
+//     return num + 2
+// }
+
+// addtwo(5)
+
+//you cant access the function before declaration if you had hold it in a variable
