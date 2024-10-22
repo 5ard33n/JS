@@ -23,4 +23,4 @@ const temperature = 41
 
 // const balance = 1000
 
-// if (balance > 500) console.log("test"),console.log("test2");   //implicit code imaginary scope
+// if (balance > 500) console.log("test"),console.log("test2");   //implicit scope imaginary scope
