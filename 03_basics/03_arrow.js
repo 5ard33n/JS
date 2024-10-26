@@ -69,6 +69,8 @@ const coffee =  () => {
 // }
 // console.log(addTwo(5,6));
 
+//if we use parenthesis () it is automatically returned
+//if scope {} we should write return to return the function
 
 //OBJECT RETURN IN ARROW FUNCTION
 const addTwo = () => ({username: "fardeen"})  
