@@ -17,10 +17,15 @@
     div.setAttribute("title", "generated title")
     div.style.backgroundColor = "green"
     div.style.padding = "12px"
+    
+    //to show in browser method 1
+    
     // div.innerText = "Chai aur code"
+     // document.body.appendChild(div)
+
+     //to show in browser method 2
     const addText = document.createTextNode("Chai aur code")
     div.appendChild(addText)
-
     document.body.appendChild(div)
 </script>
 </html>
